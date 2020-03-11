@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="485.0" prefWidth="625.0" style="-fx-background-color: #0099ff;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutY="6.0" prefHeight="52.0" prefWidth="625.0" text="                Rock Scissor Paper">
+         <font>
+            <Font size="35.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Label>
+      <TextField layoutX="174.0" layoutY="167.0" prefHeight="34.0" prefWidth="251.0" promptText="Email" />
+      <PasswordField layoutX="174.0" layoutY="226.0" prefHeight="34.0" prefWidth="251.0" promptText="Password" />
+      <Button layoutX="174.0" layoutY="277.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="78.0" text="Log In" />
+      <CheckBox layoutX="176.0" layoutY="341.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="168.0" text="Remember me" />
+   </children>
+</Pane>
