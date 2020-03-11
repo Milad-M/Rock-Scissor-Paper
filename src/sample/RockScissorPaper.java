@@ -19,7 +19,7 @@ public class RockScissorPaper {
         int continuee = 0;
         int spelarensVal;
         int datansVal;
-
+ do {
         //Användarens val
         System.out.println("Var god och välj en av följande: Sten(0), Sax(1), Påse(2):");
         spelarensVal = scan.nextInt();
@@ -36,7 +36,7 @@ public class RockScissorPaper {
         System.out.println(spelarensVal);
 
         //Om valen är lika
-        do {
+       
 
 
             if (spelarensVal == datansVal) {
